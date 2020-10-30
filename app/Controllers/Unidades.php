@@ -6,7 +6,7 @@
 
     class Unidades extends BaseController
     {
-        protected $resultado;
+        //protected $resultado;
         
         public function __construct(){
             $this->unidades = new UnidadesModel();
@@ -23,5 +23,4 @@
             echo view('unidades/unidades',$data);
             echo view('plantilla/final');
         }
-
     }

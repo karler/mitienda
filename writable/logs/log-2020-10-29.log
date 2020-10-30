@@ -1,0 +1,8 @@
+CRITICAL - 2020-10-29 19:53:09 --> syntax error, unexpected 'fas' (T_STRING), expecting ';' or ','
+#0 D:\xampp\htdocs\mitienda\system\Common.php(1119): CodeIgniter\View\View->render('unidades/unidad...', Array, true)
+#1 D:\xampp\htdocs\mitienda\app\Controllers\Unidades.php(23): view('unidades/unidad...', Array)
+#2 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(918): App\Controllers\Unidades->index()
+#3 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#4 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\mitienda\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
