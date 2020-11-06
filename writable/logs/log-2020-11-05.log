@@ -1,0 +1,106 @@
+CRITICAL - 2020-11-05 18:17:01 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 D:\xampp\htdocs\mitienda\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Unidades/nuevo')
+#1 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Unidades/nuevo')
+#2 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\mitienda\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-05 18:17:32 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 D:\xampp\htdocs\mitienda\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Unidades')
+#1 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Unidades')
+#2 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\mitienda\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-05 18:32:02 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 D:\xampp\htdocs\mitienda\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Unidades')
+#1 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Unidades')
+#2 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\mitienda\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-05 18:32:07 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 D:\xampp\htdocs\mitienda\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Unidades')
+#1 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Unidades')
+#2 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\mitienda\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-05 18:41:31 --> Argument 2 passed to view() must be of the type array, null given, called in D:\xampp\htdocs\mitienda\app\Controllers\Unidades.php on line 47
+#0 D:\xampp\htdocs\mitienda\app\Controllers\Unidades.php(47): view('unidades/unidad...', NULL)
+#1 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(918): App\Controllers\Unidades->insertar()
+#2 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#3 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\mitienda\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-05 18:55:34 --> syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 D:\xampp\htdocs\mitienda\system\Common.php(1119): CodeIgniter\View\View->render('unidades/editar', Array, true)
+#1 D:\xampp\htdocs\mitienda\app\Controllers\Unidades.php(57): view('unidades/editar', Array)
+#2 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(918): App\Controllers\Unidades->editar('7')
+#3 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#4 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\mitienda\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-05 19:06:51 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 D:\xampp\htdocs\mitienda\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Unidades/editar...')
+#1 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Unidades/editar...')
+#2 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\mitienda\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-05 19:06:53 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 D:\xampp\htdocs\mitienda\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Unidades')
+#1 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Unidades')
+#2 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\mitienda\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-05 19:06:54 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 D:\xampp\htdocs\mitienda\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Unidades/nuevo')
+#1 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Unidades/nuevo')
+#2 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\mitienda\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-05 19:08:52 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 D:\xampp\htdocs\mitienda\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Unidades/nuevo')
+#1 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Unidades/nuevo')
+#2 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\mitienda\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-05 19:09:38 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 D:\xampp\htdocs\mitienda\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Unidades/nuevo')
+#1 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Unidades/nuevo')
+#2 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\mitienda\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-05 19:09:39 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 D:\xampp\htdocs\mitienda\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Unidades/nuevo')
+#1 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Unidades/nuevo')
+#2 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\mitienda\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-05 19:09:39 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 D:\xampp\htdocs\mitienda\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Unidades/nuevo')
+#1 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Unidades/nuevo')
+#2 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\mitienda\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-05 19:09:39 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 D:\xampp\htdocs\mitienda\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Unidades/nuevo')
+#1 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Unidades/nuevo')
+#2 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\mitienda\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-05 19:09:39 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 D:\xampp\htdocs\mitienda\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Unidades/nuevo')
+#1 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Unidades/nuevo')
+#2 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\mitienda\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
