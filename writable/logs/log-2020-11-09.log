@@ -1,0 +1,6 @@
+CRITICAL - 2020-11-09 18:40:05 --> Call to a member function where() on null
+#0 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(918): App\Controllers\Categorias->editar('4')
+#1 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#2 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\mitienda\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

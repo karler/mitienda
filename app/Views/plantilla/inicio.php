@@ -51,8 +51,8 @@
                             </a>
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="layout-static.html">Productos</a>
-                                    <a class="nav-link" href="layout-sidenav-light.html">Categorias</a>
+                                    <a class="nav-link" href="<?=base_url()?>/public/Productos">Productos</a>
+                                    <a class="nav-link" href="<?=base_url()?>/public/Categorias">Categorias</a>
                                     <a class="nav-link" href="<?=base_url()?>/public/Unidades">Unidades</a>
                                 </nav>
                             </div>
