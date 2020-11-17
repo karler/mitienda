@@ -6,7 +6,7 @@
 
     class Categorias extends BaseController
     {
-        //protected $resultado;
+        protected $categorias;
         
         public function __construct(){
             $this->categorias = new CategoriasModel();

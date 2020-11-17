@@ -6,7 +6,7 @@
 
     class Unidades extends BaseController
     {
-        //protected $resultado;
+        protected $unidades;
         
         public function __construct(){
             $this->unidades = new UnidadesModel();

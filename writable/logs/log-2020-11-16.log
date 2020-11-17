@@ -1,0 +1,17 @@
+CRITICAL - 2020-11-16 18:28:23 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\xampp\htdocs\mitienda\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Productos')
+#1 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Productos')
+#2 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\mitienda\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-16 19:15:26 --> Invalid argument supplied for foreach()
+#0 D:\xampp\htdocs\mitienda\app\Views\productos\editar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp\\htdocs...', 89, Array)
+#1 D:\xampp\htdocs\mitienda\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\mitienda\system\Common.php(1119): CodeIgniter\View\View->render('productos/edita...', Array, true)
+#3 D:\xampp\htdocs\mitienda\app\Controllers\Productos.php(74): view('productos/edita...', Array)
+#4 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(918): App\Controllers\Productos->editar('1')
+#5 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\mitienda\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
