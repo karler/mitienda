@@ -56,7 +56,11 @@
                                     <a class="nav-link" href="<?=base_url()?>/public/Unidades">Unidades</a>
                                 </nav>
                             </div>
-                            
+                            <!-- Clientes-->
+                            <a class="nav-link" href="<?=base_url()?>/public/Clientes">
+                                <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
+                                Clientes
+                            </a>
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">

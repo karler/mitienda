@@ -1,0 +1,12 @@
+CRITICAL - 2020-11-19 18:29:41 --> Class 'App\Models\ClientesModel' not found
+#0 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(890): App\Controllers\Clientes->__construct()
+#1 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\mitienda\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-19 18:29:42 --> Class 'App\Models\ClientesModel' not found
+#0 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(890): App\Controllers\Clientes->__construct()
+#1 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\mitienda\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\mitienda\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
