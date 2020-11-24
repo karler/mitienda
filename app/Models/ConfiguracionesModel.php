@@ -2,26 +2,15 @@
     namespace App\Models;
     use CodeIgniter\Model;
 
-    class ProductosModel extends Model
+    class ConfiguracionesModel extends Model
     {
-        protected $table      = 'productos';
-        protected $primaryKey = 'idproducto';
+        protected $table      = 'configuraciones';
+        protected $primaryKey = 'idconfiguracion';
 
         protected $returnType = 'array';
         protected $useSoftDeletes = false; //true
 
-        protected $allowedFields = [
-            'codigo',
-            'nombre',
-            'precio_venta',
-            'precio_compra',
-            'existencias',
-            'stock_minimo',
-            'inventariable',
-            'idunidad',
-            'idcategoria',
-            'activo'
-        ];
+        protected $allowedFields = ['nombre','valor'];
 
         protected $useTimestamps = false;
         protected $createdField  = 'fecha_create'; //created_at

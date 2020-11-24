@@ -44,12 +44,13 @@
                 <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                     <div class="sb-sidenav-menu">
                         <div class="nav">
-                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                            <!-- Menu Productos -->
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#menuproductos" aria-expanded="false" aria-controls="menuproductos">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                                 Productos
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
-                            <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                            <div class="collapse" id="menuproductos" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="<?=base_url()?>/public/Productos">Productos</a>
                                     <a class="nav-link" href="<?=base_url()?>/public/Categorias">Categorias</a>
@@ -61,6 +62,17 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
                                 Clientes
                             </a>
+                            <!-- Menu Administración -->
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#menuadministracion" aria-expanded="false" aria-controls="menuadministracion">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tools"></i></div>
+                                Administración
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="menuadministracion" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="<?=base_url()?>/public/Configuracion">Configuración</a>
+                                </nav>
+                            </div>
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">
