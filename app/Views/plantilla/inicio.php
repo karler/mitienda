@@ -71,6 +71,9 @@
                             <div class="collapse" id="menuadministracion" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="<?=base_url()?>/public/Configuraciones">Configuración</a>
+                                    <a class="nav-link" href="<?=base_url()?>/public/Cajas">Cajas</a>
+                                    <a class="nav-link" href="<?=base_url()?>/public/Roles">Roles</a>
+                                    <a class="nav-link" href="<?=base_url()?>/public/Usuarios">Usuarios</a>
                                 </nav>
                             </div>
                         </div>
